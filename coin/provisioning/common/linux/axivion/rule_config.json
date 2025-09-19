@@ -1,210 +1,301 @@
 {
     "Analysis": {
-        "CloneDetection": {
-            "_active": true,
-            "excludes": [
-                "$(splitpath:EXCLUDE_FILES)"
+        "Architecture": {
+            "child_order": [
+                "Architecture-CyclesView 1",
+                "Architecture-DeadCodeView 1"
             ]
         },
-        "Frameworks-QtSupport": {
-            "_active": true,
-            "exclude_qt_generated_files": true,
-            "qtdir": "/home/qt/work/install"
+        "Architecture-CyclesView 1": {
+            "_active": false,
+            "_copy_from": "Architecture-CyclesView"
         },
-        "Qt-AutoUnexpectedQStringbuilder": {
+        "Architecture-DeadCodeView 1": {
+            "_active": false,
+            "_copy_from": "Architecture-DeadCodeView"
+        },
+        "CWE-248": {
             "_active": true
         },
-        "Qt-BaseClassEvent": {
+        "CWE-396": {
             "_active": true
         },
-        "Qt-ChildEventQObjectCast": {
+        "CWE-397": {
             "_active": true
         },
-        "Qt-Connect3argLambda": {
+        "CWE-401": {
             "_active": true
         },
-        "Qt-ConnectByName": {
+        "CWE-500": {
             "_active": true
         },
-        "Qt-ConnectNonSignal": {
+        "CWE-562": {
             "_active": true
         },
-        "Qt-ConstSignalOrSlot": {
+        "CWE-766": {
             "_active": true
         },
-        "Qt-CtorMissingParentArgument": {
+        "CWE-767": {
             "_active": true
         },
-        "Qt-DetachingTemporary": {
+        "CertC++-CON50": {
             "_active": true
         },
-        "Qt-FullyQualifiedMocTypes": {
+        "CertC++-CON51": {
             "_active": true
         },
-        "Qt-FunctionArgsByValueRef": {
+        "CertC++-CON52": {
             "_active": true
         },
-        "Qt-Generic-DuplicateIncludeGuard": {
+        "CertC++-CON53": {
             "_active": true
         },
-        "Qt-Generic-FormatSpecifier": {
+        "CertC++-CON54": {
             "_active": true
         },
-        "Qt-Generic-InitializeAllFieldsInConstructor": {
+        "CertC++-CON55": {
             "_active": true
         },
-        "Qt-Generic-MissingBaseCopy": {
+        "CertC++-CON56": {
             "_active": true
         },
-        "Qt-Generic-MissingIncludeGuard": {
+        "CertC++-CTR50": {
             "_active": true
         },
-        "Qt-Generic-NoAbsoluteInclude": {
+        "CertC++-CTR51": {
             "_active": true
         },
-        "Qt-Generic-NoFunctionDefinitionInHeader": {
+        "CertC++-CTR52": {
             "_active": true
         },
-        "Qt-Generic-NoIrregularInclude": {
+        "CertC++-CTR53": {
             "_active": true
         },
-        "Qt-Generic-NoMixOfClassStruct": {
+        "CertC++-CTR54": {
             "_active": true
         },
-        "Qt-Generic-NoOverloadedOperators": {
+        "CertC++-CTR55": {
             "_active": true
         },
-        "Qt-Generic-NoReferenceToLocalVariable": {
+        "CertC++-CTR56": {
             "_active": true
         },
-        "Qt-Generic-QNetworkReplyDeleteLater": {
+        "CertC++-DCL50": {
             "_active": true
         },
-        "Qt-Generic-ThrowByValueCatchByReference": {
+        "CertC++-DCL51": {
             "_active": true
         },
-        "Qt-Generic-TypedefCheck": {
+        "CertC++-DCL52": {
             "_active": true
         },
-        "Qt-Generic-WrongIncludeCasing": {
+        "CertC++-DCL53": {
             "_active": true
         },
-        "Qt-GlobalConstCharPointer": {
+        "CertC++-DCL54": {
             "_active": true
         },
-        "Qt-IncorrectEmit": {
+        "CertC++-DCL55": {
             "_active": true
         },
-        "Qt-InstallEventFilter": {
+        "CertC++-DCL56": {
             "_active": true
         },
-        "Qt-LambdaInConnect": {
+        "CertC++-DCL57": {
             "_active": true
         },
-        "Qt-LambdaUniqueConnection": {
+        "CertC++-DCL58": {
             "_active": true
         },
-        "Qt-LowercaseQmlTypeName": {
+        "CertC++-DCL59": {
             "_active": true
         },
-        "Qt-MissingQObjectMacro": {
+        "CertC++-DCL60": {
             "_active": true
         },
-        "Qt-MutableContainerKey": {
+        "CertC++-ERR50": {
             "_active": true
         },
-        "Qt-NonPodGlobalStatic": {
+        "CertC++-ERR51": {
             "_active": true
         },
-        "Qt-OldStyleConnect": {
+        "CertC++-ERR52": {
             "_active": true
         },
-        "Qt-OverloadedSignal": {
+        "CertC++-ERR53": {
             "_active": true
         },
-        "Qt-OverriddenSignal": {
+        "CertC++-ERR54": {
             "_active": true
         },
-        "Qt-PostEvent": {
+        "CertC++-ERR55": {
             "_active": true
         },
-        "Qt-QDateTimeUTC": {
+        "CertC++-ERR56": {
             "_active": true
         },
-        "Qt-QEnums": {
+        "CertC++-ERR57": {
             "_active": true
         },
-        "Qt-QLatin1StringNonAscii": {
+        "CertC++-ERR58": {
             "_active": true
         },
-        "Qt-QMapWithPointerKey": {
+        "CertC++-ERR61": {
             "_active": true
         },
-        "Qt-QPropertyWithoutNotify": {
+        "CertC++-ERR62": {
             "_active": true
         },
-        "Qt-QStringArg": {
+        "CertC++-EXP50": {
             "_active": true
         },
-        "Qt-QStringComparisonToImplicitChar": {
+        "CertC++-EXP51": {
             "_active": true
         },
-        "Qt-QhashNamespace": {
+        "CertC++-EXP52": {
             "_active": true
         },
-        "Qt-QtMacros": {
+        "CertC++-EXP53": {
             "_active": true
         },
-        "Qt-RangeLoopDetach": {
+        "CertC++-EXP54": {
+            "_active": true
+        },
+        "CertC++-EXP55": {
+            "_active": true
+        },
+        "CertC++-EXP58": {
+            "_active": true
+        },
+        "CertC++-EXP59": {
+            "_active": true
+        },
+        "CertC++-EXP61": {
+            "_active": true
+        },
+        "CertC++-EXP62": {
+            "_active": true
+        },
+        "CertC++-EXP63": {
+            "_active": true
+        },
+        "CertC++-FIO50": {
+            "_active": true
+        },
+        "CertC++-FIO51": {
+            "_active": true
+        },
+        "CertC++-INT50": {
+            "_active": true
+        },
+        "CertC++-MEM50": {
+            "_active": true
+        },
+        "CertC++-MEM51": {
+            "_active": true
+        },
+        "CertC++-MEM52": {
+            "_active": true
+        },
+        "CertC++-MEM53": {
+            "_active": true
+        },
+        "CertC++-MEM54": {
+            "_active": true
+        },
+        "CertC++-MEM56": {
+            "_active": true
+        },
+        "CertC++-MSC50": {
+            "_active": true
+        },
+        "CertC++-MSC51": {
+            "_active": true
+        },
+        "CertC++-MSC52": {
+            "_active": true
+        },
+        "CertC++-MSC53": {
+            "_active": true
+        },
+        "CertC++-OOP50": {
+            "_active": true
+        },
+        "CertC++-OOP51": {
+            "_active": true
+        },
+        "CertC++-OOP52": {
+            "_active": true
+        },
+        "CertC++-OOP53": {
+            "_active": true
+        },
+        "CertC++-OOP54": {
+            "_active": true
+        },
+        "CertC++-OOP55": {
+            "_active": true
+        },
+        "CertC++-OOP57": {
+            "_active": true
+        },
+        "CertC++-OOP58": {
+            "_active": true
+        },
+        "CertC++-STR50": {
+            "_active": true
+        },
+        "CertC++-STR51": {
+            "_active": true
+        },
+        "CertC++-STR52": {
+            "_active": true
+        },
+        "CertC++-STR53": {
+            "_active": true
+        },
+        "CloneDetection": {
             "_active": false
         },
-        "Qt-RangeLoopReference": {
-            "_active": true
+        "CycleDetection-CallgraphCycles": {
+            "_active": false
         },
-        "Qt-ReturningDataFromTemporary": {
-            "_active": true
+        "CycleDetection-IncludeCycles": {
+            "_active": false
         },
-        "Qt-RuleOfThree": {
-            "_active": true
+        "DeadCodeDetection": {
+            "_active": false
         },
-        "Qt-RuleOfTwoSoft": {
-            "_active": true
-        },
-        "Qt-SkippedBaseMethod": {
-            "_active": true
-        },
-        "Qt-StrictIterators": {
-            "_active": true
-        },
-        "Qt-TemporaryIterator": {
-            "_active": true
-        },
-        "Qt-UnusedNonTrivialVariable": {
-            "_active": true
-        },
-        "Qt-VirtualSignal": {
-            "_active": true
-        },
-        "Qt-WritingToTemporary": {
-            "_active": true
-        },
-        "Qt-WrongQEventCast": {
-            "_active": true
-        },
-        "Qt-WrongQGlobalStatic": {
-            "_active": true
-        },
-        "Stylechecks": {
-            "excludes": [
-                "$(splitpath:EXCLUDE_FILES)"
+        "Generic-NoCompilerWarnings": {
+            "_active": false,
+            "reported_severities": [
+                "error"
             ]
+        },
+        "Generic-NoLinkerWarnings": {
+            "_active": false,
+            "reported_severities": [
+                "error"
+            ]
+        },
+        "Metric-Lines.Comment": {
+            "_active": false
+        },
+        "Metric-Lines.LOC": {
+            "_active": false
+        },
+        "Metric-McCabeComplexity": {
+            "_active": false
+        },
+        "Metric-NumberOfStatements": {
+            "_active": false
         }
     },
     "_Format": "1.0",
     "_VersionNum": [
         7,
-        8,
-        0,
-        15004
+        10,
+        3,
+        17565
     ]
 }
